@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+
+gem 'sinatra'
+
+# handle with `pick': Couldn't find handler for: thin, falcon, puma, HTTP, webrick. (LoadError) 
+gem 'puma'
+gem 'mysql2'
+gem 'sinatra-contrib'
